@@ -7,9 +7,7 @@ import Loading from './components/Loading';
 
 const App = () => {
   const [prompt, setPrompt] = useState("");
-
   const [loader, setLoader] = useState(false);
-
   const [res, setRes] = useState("");
 
   const generateRes = async () => {
